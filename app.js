@@ -20,9 +20,10 @@ class Product {
         `;
         cardContainer.appendChild(card);
     }
-}
+};
+
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("https://fakestoreapi.com/products")
+        fetch("https://fakestoreapi.com/products")
         .then(response => response.json())
         .then(products => {
             let someProducts = products.slice(0, 20);
