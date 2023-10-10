@@ -1,57 +1,47 @@
-.col.cards-container {
+/* .col.cards-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    /* gap: 13px; */
     width: 100%;
     position: relative;
-    /* left: -1%; */
     top: 50px;
-    /* border: 2px solid black; */
-    /* column-gap: 10px; */
-    /* padding: 15px; */
-    /* border-radius: 15px; */
     overflow: scroll;
     align-items: center;
     height: 500px;
     justify-content: space-between;
-}
+} */
 
-span.anything {
+/* span.anything {
     display: flex;
     flex-direction: column;
     font-size: 18px;
     border: 3px solid cornflowerblue;
     border-radius: 15px;
     width: 50%;
-}
+} */
 
-form {
+/* form {
     display: flex;
     flex-direction: column;
     padding: 10px;
     margin-top: 40px;
     margin-bottom: 200px;
-}
+} */
 
 /* .col {
     margin: 44px;
 } */
 
-.col.new-cards {
+/* .col.new-cards {
     border: 1px solid black;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     overflow: scroll;
     height: 320px;
-}
+} */
 
-.card img {
-    width: 100px;
-}
-
-.col.cards-container div {
+/* .col.cards-container div {
     height: 319px;
     display: flex;
     flex-direction: column;
@@ -60,10 +50,59 @@ form {
     padding: 10px;
     border: 0px solid;
     margin: 15px;
+} */
+
+/* .h5, h5 {
+    font-size: 16px;
+} */
+
+.col.cards-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    overflow-y: auto;
+    gap: 35px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
 }
 
-.h5, h5 {
-    font-size: 16px;
+.col.new-cards {
+    border: 2px solid cornflowerblue;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px deepskyblue;
+    padding: 10px;
+}
+
+.col.new-cards div {
+    border: 2px solid darksalmon;
+    padding: 10px;
+    margin: 10px;
+}
+
+#stylee {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    font-size: 18px;
+    font-weight: bolder;
+    gap: 10px;
+    margin-left: 112px;
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.col.cards-container div img {
+    width: 100px;
 }
 
 .col.new-cards img {
@@ -73,7 +112,7 @@ form {
 body {
     background: #fbfbfd;
 }
-
+/* -------------------------------------------------------------------------------------------------- */
 .new_footer_area {
     background: #fbfbfd;
 }

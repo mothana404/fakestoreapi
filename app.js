@@ -66,6 +66,7 @@ document.addEventListener("DOMContentLoaded", () =>{
             `<div>
                 <img src = "">
                 <span class = anything>
+                    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYF1Wsj_QgmZc70pVPOB3VGrN4Wl_pQXFI1L1-NhA&s" width = "100px">
                     <span contenteditable="true" id = "title-edit">${element.title}</span>
                     <span contenteditable="true" id = "content-edit">${element.content}</span>
                     <button id = ${element.id} class = "remove" onclick = "remove(this)">remove</button>
@@ -113,3 +114,4 @@ function update(e){
     })
     .catch(error => console.log("there is an error with patch"));
 };
+
