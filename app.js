@@ -80,11 +80,11 @@ document.addEventListener("DOMContentLoaded", () =>{
 });
 
 //this is the remove
-function remove(e, ele){
-    e.preventDefault();
-    let idid = ele.id;
+function remove(e){
+    // e.preventDefault();
+    let idid = e.id;
     console.log(idid);
-    fetch(`http://localhost:3000/posts/${cardid}`, {
+    fetch(`http://localhost:3000/posts/${idid}`, {
         method : "DELETE",
         headers: {
             "Content-Type": "application/json",
@@ -99,7 +99,8 @@ function update(e){
     let cardid = e.id;
     console.log(cardid);
     let newtitle = document.querySelector("#title-edit").innerHTML;
-    let newcontent = document.querySelector("#content-edit").innerHTML;;
+    let newcontent = document.querySelector("#content-edit").innerHTML;
+    console.log(newcontent);
     fetch(`http://localhost:3000/posts/${cardid}`, {
         method : 'PUT',
         headers: {
