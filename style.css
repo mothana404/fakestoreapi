@@ -13,6 +13,14 @@
     border-radius: 15px;
 }
 
+.col {
+    margin: 44px;
+}
+
+.col.new-cards img {
+    width: 100px;
+}
+
 body {
     background: #fbfbfd;
 }
